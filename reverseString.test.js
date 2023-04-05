@@ -1,5 +1,6 @@
 const reverseString = require('./reverseString');
 
 it('reverse string', () => {
- expect(reverseString('hello')).toMatch("olleh")
+  const text = 'hello';
+  expect(reverseString(text)).toMatch("olleh")
 })
